@@ -20,6 +20,13 @@ body {
 	font-size:14px;
 }
 
+#imageLoader {
+	font-family: courier, monospace;
+	color: #55ed3d;
+
+	font-size:14px;
+}
+
 a {
 	color: #0bc;
 	text-decoration: underline;
