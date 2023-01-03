@@ -3,30 +3,33 @@
 
 <head>
     <title>FacialAI | Selection</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index_style.css">
 </head>
 
 <body>
-    <div>
-
+    <div class="header">
+        <h1>Choose your AI</h1>
     </div>
-    <h1>Choose Your AI</h1>
-    <button onclick="openLiveFacialAI()">Live Facial AI</button>
-    <button onclick="openPictureAI()">Picture AI</button>
+    <div class="button">
+        <button href="facialrecognition.html" class="primaryButton">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Facial AI
+        </button>
+        <button href="picturerecognition.html" class="primaryButton">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Picture AI
+        </button>
+    </div>
 
-    <script>
-        function openLiveFacialAI() {
-            window.location.href = 'facialrecognition.html';
-
-        }
-
-        function openPictureAI() {
-            // Load the body with a file input element for uploading an image
-            window.location.href = 'picturerecognition.html';
-
-            // Initialize the picture AI
-            initializePictureAI();
-        }
-    </script>
 </body>
 
 </html>

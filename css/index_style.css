@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+  
+* { color:#fff; text-decoration: none;}
+
+.button { 
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Consolas', monospace;
+    font-size: 3em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 2%;
+}
+
+button {
+    margin: 10px;
+    padding: 15px 30px;
+    color: #43f403;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.4s all ease-in;
+    letter-spacing: 4px;
+    overflow: hidden;
+    border: 2px solid #43f403;
+    background: none;
+}
+
+button:hover {
+    background: #03f44729;
+    color: #050801;
+
+}
