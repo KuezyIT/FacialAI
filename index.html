@@ -1,32 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <script defer src="face-api.min.js"></script>
-    <script defer src="faceRecognitionNet.js"></script>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            width: 100vw;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        canvas {
-            position: absolute;
-        }
-    </style>
+    <title>FacialAI | Selection</title>
 </head>
 
 <body>
-    <video id="video" width="720" height="560" autoplay muted></video>
+    <div>
+
+    </div>
+    <h1>Choose Your AI</h1>
+    <button onclick="openLiveFacialAI()">Live Facial AI</button>
+    <button onclick="openPictureAI()">Picture AI</button>
+
+    <script>
+        function openLiveFacialAI() {
+            window.location.href = 'facialrecognition.html';
+
+        }
+
+        function openPictureAI() {
+            // Load the body with a file input element for uploading an image
+            window.location.href = 'picturerecognition.html';
+
+            // Initialize the picture AI
+            initializePictureAI();
+        }
+    </script>
 </body>
 
 </html>
