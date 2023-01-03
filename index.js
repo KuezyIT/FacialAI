@@ -9,8 +9,7 @@ var Typer = {
     init: function () {
         accessCountimer = setInterval(function () {
             Typer.updLstChr();
-        }, 500);
-        $.get(Typer.file, function (data) {
+        }, 500).get(Typer.file, function (data) {
             Typer.text = data;
             Typer.text = Typer.text.slice(0, Typer.text.length - 1);
         });
