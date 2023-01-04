@@ -63,3 +63,20 @@ a:hover {
     	50% { color:  #0f0; }
     	99% { color: black; }
 }
+
+video {
+	width: 100%;
+	max-width: 800px;
+}
+
+@media (max-width: 500px) {
+	video {
+	  margin: 0 10px;
+	}
+  }
+  
+  @media (min-width: 501px) and (max-width: 800px) {
+	video {
+	  margin: 0 20px;
+	}
+  }

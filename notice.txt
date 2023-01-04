@@ -2,11 +2,11 @@
 <span id="a">prod@facialai</span>:<span id="b">~</span><span id="c">$</span> cat <!-- kjsdfhkjdhsfkjdshfkj -->notice.txt<br/><br/>
 <p>Welcome to the FacialAI Project (v0.1.4)</p>
         <p>> This project is about Face Recognition driven by AI and was last updated on 01/03/2022
-        <p>
+        
         <div class="decision">
             <br>
             <p>Please select which kind of AI you want to open:</p>
             <a class="button" href="facialrecognition.html">[1] Facial Recognition</a><br>
             <a class="button" href="picturerecognition.html">[2] Picture Recognition</a>
         </div>
-        </p>
+        
