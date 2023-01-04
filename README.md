@@ -17,6 +17,8 @@ In the future, a additional feature called Picture Recognition will be implement
 2. The canvas (Including the box, and text) is currently not precisely placed, it might have a little offset off the acual face
 3. Not all pages are animated, just the index.html for now
 
+# Getting started
+
 # Support
 If you find a bug, vulnerability or things I should improve in this project, simply open a Issue in this repository and leave some details in it for my review.
 If you like my work, the projects I do and also the public repositories, I'd be happy if you would support me by starring this repo.
