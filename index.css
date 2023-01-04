@@ -10,13 +10,14 @@ body {
 	text-decoration: none;
 }
 
-#console {
+/* Problem maker  1*/
+#console { 
 	font-family: courier, monospace;
 	color: #55ed3d;
 	width:750px;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top:100px;
+	/* margin-top:100px; */
 	font-size:14px;
 }
 
@@ -71,12 +72,12 @@ video {
 
 @media (max-width: 500px) {
 	video {
-	  margin: 0 10px;
+	  margin: 0 0px;
 	}
   }
   
   @media (min-width: 501px) and (max-width: 800px) {
 	video {
-	  margin: 0 20px;
+	  margin: 0 0px;
 	}
   }
