@@ -5,7 +5,7 @@ Promise.all([
   faceapi.nets.faceLandmark68Net.loadFromUri("/models"),
   faceapi.nets.faceRecognitionNet.loadFromUri("/models"),
   faceapi.nets.faceExpressionNet.loadFromUri("/models"),
-  faceapi.nets.ageGenderNet.loadFromUri('/models')
+  faceapi.nets.ageGenderNet.loadFromUri("/models"),
 ]).then(startVideo);
 
 function startVideo() {
@@ -32,12 +32,12 @@ video.addEventListener("play", () => {
     faceapi.draw.drawDetections(canvas, resizedDetections);
     faceapi.draw.drawFaceLandmarks(canvas, resizedDetections);
     faceapi.draw.drawFaceExpressions(canvas, resizedDetections);
-    resizedDetections.forEach(result => {
+    resizedDetections.forEach((result) => {
       const { age, gender, genderProbability } = result;
       new faceapi.draw.DrawTextField(
         [
           `${faceapi.round(age, 0)} years`,
-          `${gender} (${faceapi.round(genderProbability)})`
+          `${gender} (${faceapi.round(genderProbability)})`,
         ],
         result.detection.box.bottomRight
       ).draw(canvas);
